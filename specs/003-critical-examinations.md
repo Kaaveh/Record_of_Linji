@@ -31,30 +31,30 @@ The register here contrasts sharply with the formal sermons of Part One:
 
 ## Checklist of Sections
 
-- [ ] `23.md` — Critical Examination I: Huangbo in the kitchen; two and a half bushels of rice
-- [ ] `24.md` — Critical Examination II: Monk shouts; Linji shouts; who is guest and host?
-- [ ] `25.md` — Critical Examination III: Dinner at patron's house with Puhua; "A hair swallows the ocean"
-- [ ] `26.md` — Critical Examination IV: Sitting around the fire with Heyang and Muta
-- [ ] `27.md` — Critical Examination V: Puhua eating raw vegetables in front of Monks' Hall
-- [ ] `28.md` — Critical Examination VI: Puhua ringing his hand bell through the streets
-- [ ] `29.md` — Critical Examination VII: An old worthy visits; questioning before offering gifts
-- [ ] `30.md` — Critical Examination VIII: Feast at army encampment; testing officers
-- [ ] `31.md` — Critical Examination IX: Steward of the temple returning from business
-- [ ] `32.md` — Critical Examination X: Lecture master visiting; what sutras do you lecture on?
-- [ ] `33.md` — Critical Examination XI: Deshan's "thirty blows if you can speak, thirty blows if you cannot"
-- [ ] `34.md` — Critical Examination XII: Councilor Wang visits; viewing the halls; "Do the monks read sutras?"
-- [ ] `35.md` — Critical Examination XIII: Xingshan and the white ox on bare ground
-- [ ] `36.md` — Critical Examination XIV: Lepu questioned on staff vs shout
-- [ ] `37.md` — Critical Examination XV: Linji spreads his arms wide
-- [ ] `38.md` — Critical Examination XVI: Dajue visits; Linji raises his whisk
-- [ ] `39.md` — Critical Examination XVII: Zhaozhou visits; washing feet
-- [ ] `40.md` — Critical Examination XVIII: Elder Ding asks about the cardinal principle; Linji knocks him down
-- [ ] `41.md` — Critical Examination XIX: Mayu visits; which face of Guanyin is the true one?
-- [ ] `42.md` — Critical Examination XX: The Four Kinds of Shouts (Diamond Sword, Golden-haired Lion, Pluming Line, Not Acting as a Shout)
-- [ ] `43.md` — Critical Examination XXI: Testing a nun; "Well-come or ill-come?"
-- [ ] `44.md` — Critical Examination XXII: Longya asks what Bodhidharma had in mind
-- [ ] `45.md` — Critical Examination XXIII: Mount Jing assembly of 500 monks
-- [ ] `46.md` — Critical Examination XXIV: Puhua begging for a one-piece garment; vanishing in the coffin
+- [x] `23.md` — Critical Examination I: Huangbo in the kitchen; two and a half bushels of rice
+- [x] `24.md` — Critical Examination II: Monk shouts; Linji shouts; who is guest and host?
+- [x] `25.md` — Critical Examination III: Dinner at patron's house with Puhua; "A hair swallows the ocean"
+- [x] `26.md` — Critical Examination IV: Sitting around the fire with Heyang and Muta
+- [x] `27.md` — Critical Examination V: Puhua eating raw vegetables in front of Monks' Hall
+- [x] `28.md` — Critical Examination VI: Puhua ringing his hand bell through the streets
+- [x] `29.md` — Critical Examination VII: An old worthy visits; questioning before offering gifts
+- [x] `30.md` — Critical Examination VIII: Feast at army encampment; testing officers
+- [x] `31.md` — Critical Examination IX: Steward of the temple returning from business
+- [x] `32.md` — Critical Examination X: Lecture master visiting; what sutras do you lecture on?
+- [x] `33.md` — Critical Examination XI: Deshan's "thirty blows if you can speak, thirty blows if you cannot"
+- [x] `34.md` — Critical Examination XII: Councilor Wang visits; viewing the halls; "Do the monks read sutras?"
+- [x] `35.md` — Critical Examination XIII: Xingshan and the white ox on bare ground
+- [x] `36.md` — Critical Examination XIV: Lepu questioned on staff vs shout
+- [x] `37.md` — Critical Examination XV: Linji spreads his arms wide
+- [x] `38.md` — Critical Examination XVI: Dajue visits; Linji raises his whisk
+- [x] `39.md` — Critical Examination XVII: Zhaozhou visits; washing feet
+- [x] `40.md` — Critical Examination XVIII: Elder Ding asks about the cardinal principle; Linji knocks him down
+- [x] `41.md` — Critical Examination XIX: Mayu visits; which face of Guanyin is the true one?
+- [x] `42.md` — Critical Examination XX: The Four Kinds of Shouts (Diamond Sword, Golden-haired Lion, Pluming Line, Not Acting as a Shout)
+- [x] `43.md` — Critical Examination XXI: Testing a nun; "Well-come or ill-come?"
+- [x] `44.md` — Critical Examination XXII: Longya asks what Bodhidharma had in mind
+- [x] `45.md` — Critical Examination XXIII: Mount Jing assembly of 500 monks
+- [x] `46.md` — Critical Examination XXIV: Puhua begging for a one-piece garment; vanishing in the coffin
 
 ---
 
