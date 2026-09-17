@@ -31,29 +31,29 @@ Part Three records the biographical events and travels (*xinglu* 行錄) of Linj
 
 ## Checklist of Sections
 
-- [ ] `47.md` — Pilgrimage I: Linji's training under Huangbo, awakening under Dayu, and return to Huangbo
-- [ ] `48.md` — Pilgrimage II: Planting pines with Huangbo; landmark for future generations
-- [ ] `49.md` — Pilgrimage III: Attending Deshan; "I'm tired today"
-- [ ] `50.md` — Pilgrimage IV: Hoeing the ground during communal labor
-- [ ] `51.md` — Pilgrimage V: Sitting in front of the Monks' Hall; Huangbo raps the meditation seat
-- [ ] `52.md` — Pilgrimage VI: Sleeping in the Monks' Hall; Huangbo and the head monk
-- [ ] `53.md` — Pilgrimage VII: Group labor; picking tea leaves / carrying hoes
-- [ ] `54.md` — Pilgrimage VIII: Carrying Huangbo's letter to Guishan
-- [ ] `55.md` — Pilgrimage IX: Returning to Huangbo in the middle of summer session
-- [ ] `56.md` — Pilgrimage X: Bodhidharma's memorial stupa; keeper asks if he will pay respects
-- [ ] `57.md` — Pilgrimage XI: Visiting Longguang
-- [ ] `58.md` — Pilgrimage XII: Visiting Sanfeng and Venerable Ping
-- [ ] `59.md` — Pilgrimage XIII: Visiting Daci in his quarters
-- [ ] `60.md` — Pilgrimage XIV: Visiting Huayan temple in Xiangzhou
-- [ ] `61.md` — Pilgrimage XV: Visiting Cuifeng
-- [ ] `62.md` — Pilgrimage XVI: Visiting Xiangtian; secular vs sacred
-- [ ] `63.md` — Pilgrimage XVII: Visiting Minghua
-- [ ] `64.md` — Pilgrimage XVIII: Meeting an old woman on the road to Fenglin
-- [ ] `65.md` — Pilgrimage XIX: Visiting Fenglin
-- [ ] `66.md` — Pilgrimage XX: Visiting Jinniu; dancing with staff
-- [ ] `67.md` — Pilgrimage XXI: Deathbed scene; Sansheng and the "blind ass"
-- [ ] `68.md` — Pilgrimage XXII: Pagoda Inscription by Yanzhao of Baoshou
-- [ ] `69-ma-fang-preface.md` — Ma Fang's Song-dynasty Preface (1120)
+- [x] `47.md` — Pilgrimage I: Linji's training under Huangbo, awakening under Dayu, and return to Huangbo
+- [x] `48.md` — Pilgrimage II: Planting pines with Huangbo; landmark for future generations
+- [x] `49.md` — Pilgrimage III: Attending Deshan; "I'm tired today"
+- [x] `50.md` — Pilgrimage IV: Hoeing the ground during communal labor
+- [x] `51.md` — Pilgrimage V: Sitting in front of the Monks' Hall; Huangbo raps the meditation seat
+- [x] `52.md` — Pilgrimage VI: Sleeping in the Monks' Hall; Huangbo and the head monk
+- [x] `53.md` — Pilgrimage VII: Group labor; picking tea leaves / carrying hoes
+- [x] `54.md` — Pilgrimage VIII: Carrying Huangbo's letter to Guishan
+- [x] `55.md` — Pilgrimage IX: Returning to Huangbo in the middle of summer session
+- [x] `56.md` — Pilgrimage X: Bodhidharma's memorial stupa; keeper asks if he will pay respects
+- [x] `57.md` — Pilgrimage XI: Visiting Longguang
+- [x] `58.md` — Pilgrimage XII: Visiting Sanfeng and Venerable Ping
+- [x] `59.md` — Pilgrimage XIII: Visiting Daci in his quarters
+- [x] `60.md` — Pilgrimage XIV: Visiting Huayan temple in Xiangzhou
+- [x] `61.md` — Pilgrimage XV: Visiting Cuifeng
+- [x] `62.md` — Pilgrimage XVI: Visiting Xiangtian; secular vs sacred
+- [x] `63.md` — Pilgrimage XVII: Visiting Minghua
+- [x] `64.md` — Pilgrimage XVIII: Meeting an old woman on the road to Fenglin
+- [x] `65.md` — Pilgrimage XIX: Visiting Fenglin
+- [x] `66.md` — Pilgrimage XX: Visiting Jinniu; dancing with staff
+- [x] `67.md` — Pilgrimage XXI: Deathbed scene; Sansheng and the "blind ass"
+- [x] `68.md` — Pilgrimage XXII: Pagoda Inscription by Yanzhao of Baoshou
+- [x] `69-ma-fang-preface.md` — Ma Fang's Song-dynasty Preface (1120)
 
 ---
 
