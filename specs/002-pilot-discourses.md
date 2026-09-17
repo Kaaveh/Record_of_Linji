@@ -36,28 +36,28 @@ The following recurring formulas and terms must be established and kept consiste
 
 ## Checklist of Sections
 
-- [ ] `01.md` — Discourse I: Opening sermon before Prefectural Governor Wang; "advising warrior"
-- [ ] `02.md` — Discourse II: Mayu pulls Linji down from the high seat
-- [ ] `03.md` — Discourse III: The "True Man without Rank" on the lump of red flesh
-- [ ] `04.md` — Discourse IV: Head monks shout simultaneously; host and guest
-- [ ] `05.md` — Discourse V: Huangbo's stick like mugwort
-- [ ] `06.md` — Discourse VI: Sword of Vajra
-- [ ] `07.md` — Discourse VII: Sitting on top of the solitary peak
-- [ ] `08.md` — Discourse VIII: Endlessly on the road
-- [ ] `09.md` — Discourse IX: The Three Phrases (三句)
-- [ ] `10.md` — Discourse X: The Four Procedures (四料簡) and the great evening sermon
-- [ ] `11.md` — Discourse XI: Urgency of acquiring true insight; the three bodies
-- [ ] `12.md` — Discourse XII: Nothing to do; being ordinary; defecating and urinating
-- [ ] `13.md` — Discourse XIII: Buddha-Māra; goose separating milk from water
-- [ ] `14.md` — Discourse XIV: True insight; entering secular and sacred; mother of all buddhas
-- [ ] `15.md` — Discourse XV: Four elements and four phases formless
-- [ ] `16.md` — Discourse XVI: Faith in oneself; independent man of the Way
-- [ ] `17.md` — Discourse XVII: Lands of the Three Eyes
-- [ ] `18.md` — Discourse XVIII: Mind and Mind not differing; long comprehensive sermon
-- [ ] `19.md` — Discourse XIX: True buddha, true dharma, true way
-- [ ] `20.md` — Discourse XX: Bodhidharma's purpose in coming from the West
-- [ ] `21.md` — Discourse XXI: Supreme Penetration Surpassing Wisdom Buddha
-- [ ] `22.md` — Discourse XXII: Karma of the five heinous crimes
+- [x] `01.md` — Discourse I: Opening sermon before Prefectural Governor Wang; "advising warrior"
+- [x] `02.md` — Discourse II: Mayu pulls Linji down from the high seat
+- [x] `03.md` — Discourse III: The "True Man without Rank" on the lump of red flesh
+- [x] `04.md` — Discourse IV: Head monks shout simultaneously; host and guest
+- [x] `05.md` — Discourse V: Huangbo's stick like mugwort
+- [x] `06.md` — Discourse VI: Sword of Vajra
+- [x] `07.md` — Discourse VII: Sitting on top of the solitary peak
+- [x] `08.md` — Discourse VIII: Endlessly on the road
+- [x] `09.md` — Discourse IX: The Three Phrases (三句)
+- [x] `10.md` — Discourse X: The Four Procedures (四料簡) and the great evening sermon
+- [x] `11.md` — Discourse XI: Urgency of acquiring true insight; the three bodies
+- [x] `12.md` — Discourse XII: Nothing to do; being ordinary; defecating and urinating
+- [x] `13.md` — Discourse XIII: Buddha-Māra; goose separating milk from water
+- [x] `14.md` — Discourse XIV: True insight; entering secular and sacred; mother of all buddhas
+- [x] `15.md` — Discourse XV: Four elements and four phases formless
+- [x] `16.md` — Discourse XVI: Faith in oneself; independent man of the Way
+- [x] `17.md` — Discourse XVII: Lands of the Three Eyes
+- [x] `18.md` — Discourse XVIII: Mind and Mind not differing; long comprehensive sermon
+- [x] `19.md` — Discourse XIX: True buddha, true dharma, true way
+- [x] `20.md` — Discourse XX: Bodhidharma's purpose in coming from the West
+- [x] `21.md` — Discourse XXI: Supreme Penetration Surpassing Wisdom Buddha
+- [x] `22.md` — Discourse XXII: Karma of the five heinous crimes
 
 ---
 
