@@ -1,0 +1,39 @@
+# Configuration for the checkers in linji_tools/. This file is config only --
+# they are imported from the tree, not installed.
+
+[tool.book]
+exclude = ["README.md", "05-chinese-text"]
+
+[tool.book.titles]
+"foreword.md" = "پیش‌گفتار"
+"preface-1975.md" = "دیباچهٔ نسخهٔ ۱۹۷۵"
+"editors-prologue.md" = "پیش‌درآمد ویراستار"
+"abbreviations.md" = "کوته‌نوشت‌ها"
+"record-title-page.md" = "صفحهٔ عنوان"
+"historical-introduction.md" = "درآمد تاریخی"
+"69-ma-fang-preface.md" = "دیباچهٔ ما فانگ"
+"discourses.md" = "متن چینی: گفتارها"
+"critical-examinations.md" = "متن چینی: سنجش‌های موشکافانه"
+"record-of-pilgrimages.md" = "متن چینی: کارنامهٔ سفرها"
+"bibliography.md" = "کتاب‌شناسی"
+"personal-names.md" = "فهرست نام‌های اشخاص"
+"index.md" = "نمایه"
+
+[tool.normalize]
+# Arabic Yeh U+064A -> Farsi Yeh U+06CC
+arabic_yeh = true
+
+# Arabic Kaf U+0643 -> Keheh U+06A9
+arabic_kaf = true
+
+# Arabic-Indic digits U+0660-U+0669 -> Extended Arabic-Indic U+06F0-U+06F9
+arabic_digits = true
+
+# Latin digits 0-9 -> Persian U+06F0-U+06F9 (keep false for Taisho numbers and anchors)
+latin_digits = false
+
+# Strip Tatweel / Kashida U+0640
+tatweel = true
+
+# Normalise half-space (ZWNJ) around prefixes/suffixes
+zwnj = true

@@ -6,6 +6,7 @@ full_bbox.xml
 *.pdf
 *.xml
 *.txt
+!tools/requirements.txt
 
 # Python & Environment
 __pycache__/
