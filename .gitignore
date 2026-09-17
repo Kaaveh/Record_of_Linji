@@ -1,0 +1,24 @@
+# English Transcripts & Source Materials (excluded due to copyright / license)
+Record_of_Linji_Translation_&_Commentary_of_Ruth_Fuller_Sasaki_Thomas.md
+Record_of_Linji_Translation_&_Commentary_of_Ruth_Fuller_Sasaki_Thomas.pdf
+full_bbox.xml
+*.pdf
+*.xml
+*.txt
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# OS & Editor
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.vscode/
+.idea/
