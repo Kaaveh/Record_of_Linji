@@ -62,6 +62,33 @@ jobs:
 
           echo "version=${version}" >> "$GITHUB_OUTPUT"
 
+      # Quarto emits only relative asset paths, so the bundle is relocatable.
+      # Assert it, because kaavehdev.ir serves it from /translations/record-of-linji/
+      # and a root-absolute path would 404 there only — silently, and only in
+      # production.
+      - name: Bundle is relocatable
+        run: |
+          if grep -rohE '(href|src)="/[^"]*"' _book --include='*.html' | grep -q .; then
+            echo "Root-absolute asset paths found; this will break under /translations/record-of-linji/:"
+            grep -rohE '(href|src)="/[^"]*"' _book --include='*.html' | sort -u | head
+            exit 1
+          fi
+          echo "all asset paths are relative"
+
+      # Quarto reuses a chapter's heading verbatim for the sidebar and for
+      # <title>, and neither gets the inline processing the page body gets. A
+      # heading carrying a note marker therefore ships as raw Markdown in the
+      # nav of every page, and bidi scrambles it on screen. The nav is where it
+      # always shows, so one grep covers it; see tools/anchors.py.
+      - name: No Markdown leaks into the sidebar
+        run: |
+          if grep -rohE '</a>[^<]*\[\^[^]]*\]\([^)]*\)' _book --include='*.html' | grep -q .; then
+            echo "Raw Markdown in the sidebar; a chapter heading is carrying inline markup:"
+            grep -rohE '</a>[^<]*\[\^[^]]*\]\([^)]*\)' _book --include='*.html' | sort -u | head
+            exit 1
+          fi
+          echo "no Markdown in the sidebar"
+
       - uses: softprops/action-gh-release@v2
         with:
           files: |
