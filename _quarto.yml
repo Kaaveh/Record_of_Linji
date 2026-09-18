@@ -1,4 +1,4 @@
-book-version: "نسخهٔ ۱.۰.۰"
+book-version: "نسخهٔ ۱.۰.۱"
 book-date: "۲۸ شهریور ۱۴۰۵"
 
 project:
@@ -6,7 +6,7 @@ project:
   output-dir: _book
 
 book:
-  title: "کارنامهٔ لین‌جی"
+  title: "سخنان لین‌جی"
   subtitle: "برگردان فارسی از متن انگلیسی و شرح جامع روث فولر ساساکی"
   author: "کاوه"
 

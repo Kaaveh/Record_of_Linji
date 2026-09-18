@@ -69,8 +69,8 @@ NAMED_HEADINGS = {
     "Additional Materials": "## یادداشت‌های تکمیلی",
     "Structure Overview": "## ساختار کتاب",
     "Discourses (上堂)": "## گفتارها (上堂)",
-    "The Record of Linji (臨濟錄)": "# کارنامهٔ لین‌جی (臨濟錄)",
-    "Part 1: The Record of Linji": "# کارنامهٔ لین‌جی",
+    "The Record of Linji (臨濟錄)": "# سخنان لین‌جی (臨濟錄)",
+    "Part 1: The Record of Linji": "# بخش ۱: سخنان لین‌جی",
 }
 
 CJK_CHAR = r"[\u4e00-\u9fff\u3400-\u4dbf\uf900-\ufaff]"

@@ -60,7 +60,7 @@ jobs:
             dist/record-of-linji-farsi-${{ steps.name.outputs.version }}-html.tar.gz
           generate_release_notes: true
           body: |
-            نسخهٔ کامل برگردان فارسی کتاب **کارنامهٔ لین‌جی** (*The Record of Linji* / 臨濟錄).
+            نسخهٔ کامل برگردان فارسی کتاب **سخنان لین‌جی** (*The Record of Linji* / 臨濟錄).
             
             - **PDF رومیزی**: حروف‌چینی شده با لولاتک و قلم وزیرمتن همراه با متن چینی مصحح.
             - **PDF موبایل**: چیدمان بهینه‌شده برای نمایش در صفحهٔ گوشی‌های هوشمند.

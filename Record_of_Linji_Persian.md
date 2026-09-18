@@ -1,4 +1,4 @@
-# کارنامه لین‌جی (The Record of Linji)
+# سخنان لین‌جی (The Record of Linji)
 
 ![طرح جلد](images/cover.png)
 
