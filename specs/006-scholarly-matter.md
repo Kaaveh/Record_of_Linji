@@ -40,8 +40,8 @@ Authored by Prof. Yanagida Seizan, the foremost 20th-century authority on Chan h
 
 ## Checklist
 
-- [ ] `04-historical-introduction/historical-introduction.md` — Complete Persian translation of Yanagida Seizan's introduction
-- [ ] `05-chinese-text/` — Integrate / verify original Chinese texts for Quarto build
-- [ ] `06-reference-matter/bibliography.md` — Translate encyclopedic bibliography
-- [ ] `06-reference-matter/personal-names.md` — Translate personal names directory
-- [ ] `06-reference-matter/index.md` — Localize index terms
+- [x] `04-historical-introduction/historical-introduction.md` — Complete Persian translation of Yanagida Seizan's introduction
+- [x] `05-chinese-text/` — Integrate / verify original Chinese texts for Quarto build
+- [x] `06-reference-matter/bibliography.md` — Translate encyclopedic bibliography
+- [x] `06-reference-matter/personal-names.md` — Translate personal names directory
+- [x] `06-reference-matter/index.md` — Localize index terms

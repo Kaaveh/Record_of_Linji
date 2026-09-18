@@ -14,10 +14,10 @@ Translation pipeline and `gTranslator` integration: [`001-translation-pipeline.m
 | 000 | [Overview & Shared Context](./000-overview.md) | Project architecture, constraints, directories | — | 📖 Reference |
 | 001 | [Translation Pipeline & Engine](./001-translation-pipeline.md) | `gTranslator` integration, sentinels, normalizer | — | 🟨 Ready |
 | 002 | [Part One: Discourses (Pilot)](./002-pilot-discourses.md) | `01-discourses/` (22 sections: `01.md`–`22.md`) | 001 | ✅ Complete |
-| 003 | [Part Two: Critical Examinations](./003-critical-examinations.md) | `02-critical-examinations/` (24 sections: `23.md`–`46.md`) | 001, 002 | ⬜ Planned |
+| 003 | [Part Two: Critical Examinations](./003-critical-examinations.md) | `02-critical-examinations/` (24 sections: `23.md`–`46.md`) | 001, 002 | ✅ Complete |
 | 004 | [Part Three: Record of Pilgrimages](./004-record-of-pilgrimages.md) | `03-record-of-pilgrimages/` (23 sections: `47.md`–`68.md` + `69-ma-fang-preface.md`) | 001, 002 | ✅ Complete |
-| 005 | [Front Matter](./005-front-matter.md) | `00-front-matter/` (5 files) | 001, 002 | ⬜ Planned |
-| 006 | [Historical Introduction & Reference](./006-scholarly-matter.md) | `04-historical-introduction/`, `05-chinese-text/`, `06-reference-matter/` | 001–004 | ⬜ Planned |
+| 005 | [Front Matter](./005-front-matter.md) | `00-front-matter/` (5 files) | 001, 002 | ✅ Complete |
+| 006 | [Historical Introduction & Reference](./006-scholarly-matter.md) | `04-historical-introduction/`, `05-chinese-text/`, `06-reference-matter/` | 001–004 | ✅ Complete |
 | 007 | [Quarto Typesetting & Publication](./007-quarto-and-typesetting.md) | Quarto build, LuaLaTeX RTL typography, HTML/PDF/EPUB | 002–006 | ⬜ Planned |
 
 ---
