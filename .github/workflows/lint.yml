@@ -1,0 +1,39 @@
+name: lint
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lint-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checkers:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: tools/requirements.txt
+
+      - run: pip install -r tools/requirements.txt
+
+      - name: Tests for the checkers
+        run: python -m unittest discover -s linji_tools/tests
+
+      - name: Orthography
+        run: python -m linji_tools.normalize --check
+
+      - name: Semantic line breaks
+        run: python -m linji_tools.check_linebreaks --check
+
+      - name: Parity
+        run: python -m linji_tools.check_parity --check

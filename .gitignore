@@ -32,8 +32,10 @@ full_bbox.xml
 !tex/*.tex
 
 # Build artefacts
+/dist/
 *.pdf
 *.epub
+*.tar.gz
 
 # Python & Environment
 __pycache__/
