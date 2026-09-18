@@ -1,0 +1,163 @@
+book-version: "نسخهٔ ۱.۰.۰"
+book-date: "۲۸ شهریور ۱۴۰۵"
+
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "کارنامهٔ لین‌جی"
+  subtitle: "برگردان فارسی از متن انگلیسی و شرح جامع روث فولر ساساکی"
+  author: "کاوه"
+
+  repo-url: https://github.com/Kaaveh/Record_of_Linji
+  repo-branch: main
+  repo-actions: [edit, issue]
+  downloads: [pdf, epub]
+  search: true
+
+  sidebar:
+    style: docked
+    collapse-level: 1
+
+  chapters:
+    - index.md
+    - part: "پیش‌گفتارها"
+      chapters:
+        - fa/00-front-matter/foreword.md
+        - fa/00-front-matter/preface-1975.md
+        - fa/00-front-matter/editors-prologue.md
+        - fa/00-front-matter/abbreviations.md
+        - fa/00-front-matter/record-title-page.md
+    - part: "دفتر یکم: گفتارها"
+      chapters:
+        - fa/01-discourses/01.md
+        - fa/01-discourses/02.md
+        - fa/01-discourses/03.md
+        - fa/01-discourses/04.md
+        - fa/01-discourses/05.md
+        - fa/01-discourses/06.md
+        - fa/01-discourses/07.md
+        - fa/01-discourses/08.md
+        - fa/01-discourses/09.md
+        - fa/01-discourses/10.md
+        - fa/01-discourses/11.md
+        - fa/01-discourses/12.md
+        - fa/01-discourses/13.md
+        - fa/01-discourses/14.md
+        - fa/01-discourses/15.md
+        - fa/01-discourses/16.md
+        - fa/01-discourses/17.md
+        - fa/01-discourses/18.md
+        - fa/01-discourses/19.md
+        - fa/01-discourses/20.md
+        - fa/01-discourses/21.md
+        - fa/01-discourses/22.md
+    - part: "دفتر دوم: سنجش‌های موشکافانه"
+      chapters:
+        - fa/02-critical-examinations/23.md
+        - fa/02-critical-examinations/24.md
+        - fa/02-critical-examinations/25.md
+        - fa/02-critical-examinations/26.md
+        - fa/02-critical-examinations/27.md
+        - fa/02-critical-examinations/28.md
+        - fa/02-critical-examinations/29.md
+        - fa/02-critical-examinations/30.md
+        - fa/02-critical-examinations/31.md
+        - fa/02-critical-examinations/32.md
+        - fa/02-critical-examinations/33.md
+        - fa/02-critical-examinations/34.md
+        - fa/02-critical-examinations/35.md
+        - fa/02-critical-examinations/36.md
+        - fa/02-critical-examinations/37.md
+        - fa/02-critical-examinations/38.md
+        - fa/02-critical-examinations/39.md
+        - fa/02-critical-examinations/40.md
+        - fa/02-critical-examinations/41.md
+        - fa/02-critical-examinations/42.md
+        - fa/02-critical-examinations/43.md
+        - fa/02-critical-examinations/44.md
+        - fa/02-critical-examinations/45.md
+        - fa/02-critical-examinations/46.md
+    - part: "دفتر سوم: کارنامهٔ سفرها"
+      chapters:
+        - fa/03-record-of-pilgrimages/47.md
+        - fa/03-record-of-pilgrimages/48.md
+        - fa/03-record-of-pilgrimages/49.md
+        - fa/03-record-of-pilgrimages/50.md
+        - fa/03-record-of-pilgrimages/51.md
+        - fa/03-record-of-pilgrimages/52.md
+        - fa/03-record-of-pilgrimages/53.md
+        - fa/03-record-of-pilgrimages/54.md
+        - fa/03-record-of-pilgrimages/55.md
+        - fa/03-record-of-pilgrimages/56.md
+        - fa/03-record-of-pilgrimages/57.md
+        - fa/03-record-of-pilgrimages/58.md
+        - fa/03-record-of-pilgrimages/59.md
+        - fa/03-record-of-pilgrimages/60.md
+        - fa/03-record-of-pilgrimages/61.md
+        - fa/03-record-of-pilgrimages/62.md
+        - fa/03-record-of-pilgrimages/63.md
+        - fa/03-record-of-pilgrimages/64.md
+        - fa/03-record-of-pilgrimages/65.md
+        - fa/03-record-of-pilgrimages/66.md
+        - fa/03-record-of-pilgrimages/67.md
+        - fa/03-record-of-pilgrimages/68.md
+        - fa/03-record-of-pilgrimages/69-ma-fang-preface.md
+    - part: "درآمد تاریخی"
+      chapters:
+        - fa/04-historical-introduction/historical-introduction.md
+    - part: "متن کهن چینی و مراجع"
+      chapters:
+        - fa/05-chinese-text/discourses.md
+        - fa/05-chinese-text/critical-examinations.md
+        - fa/05-chinese-text/record-of-pilgrimages.md
+        - fa/06-reference-matter/personal-names.md
+        - fa/06-reference-matter/bibliography.md
+        - fa/06-reference-matter/index.md
+
+lang: fa-IR
+dir: rtl
+language: _language.yml
+number-sections: false
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    respect-user-color-scheme: true
+    css: assets/rtl.css
+    toc: true
+    toc-depth: 2
+    toc-title: "در این بخش"
+    link-external-newwindow: true
+
+  pdf:
+    pdf-engine: lualatex
+    documentclass: book
+    toc-depth: 1
+    classoption: [openany]
+    mainfont: "Vazirmatn-Regular.ttf"
+    mainfontoptions:
+      - Path=fonts/
+      - BoldFont=Vazirmatn-Bold.ttf
+      - Renderer=Harfbuzz
+    fontsize: 12pt
+    geometry:
+      - top=25mm
+      - bottom=25mm
+      - inner=28mm
+      - outer=22mm
+    include-in-header: tex/preamble.tex
+    template-partials:
+      - tex/title.tex
+    colorlinks: true
+
+  epub:
+    page-progression-direction: rtl
+    epub-fonts:
+      - fonts/Vazirmatn-Regular.ttf
+      - fonts/Vazirmatn-Bold.ttf
+    css: assets/epub.css
+    toc-depth: 1

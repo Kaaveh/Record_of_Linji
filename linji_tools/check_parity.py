@@ -100,6 +100,7 @@ def compare(source_dir: Path, fa_dir: Path, exclude: set[str] | None = None) -> 
     fa_names = {
         p.relative_to(fa_dir).as_posix()
         for p in fa_dir.rglob("*.md")
+        if not is_excluded(p.relative_to(fa_dir), ex)
     }
 
     for name in sorted(source_names - fa_names):

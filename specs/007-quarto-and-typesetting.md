@@ -50,7 +50,7 @@ In the previous project ([`The Zen Teachings of Master Lin-chi`](file:///Users/k
 
 ## Acceptance Criteria
 
-- [ ] `_quarto.yml` includes all translated files in `fa/`.
-- [ ] HTML output renders with proper RTL layout, functional sidebar, and search.
-- [ ] PDF compiles cleanly with LuaLaTeX with zero font errors or reversed Latin runs.
-- [ ] EPUB generated and validates without broken links.
+- [x] `_quarto.yml` includes all translated files in `fa/`.
+- [x] HTML output renders with proper RTL layout, functional sidebar, and search.
+- [x] PDF compiles cleanly with LuaLaTeX with zero font errors or reversed Latin runs.
+- [x] EPUB generated and validates without broken links.

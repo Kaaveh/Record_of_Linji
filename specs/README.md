@@ -18,7 +18,7 @@ Translation pipeline and `gTranslator` integration: [`001-translation-pipeline.m
 | 004 | [Part Three: Record of Pilgrimages](./004-record-of-pilgrimages.md) | `03-record-of-pilgrimages/` (23 sections: `47.md`–`68.md` + `69-ma-fang-preface.md`) | 001, 002 | ✅ Complete |
 | 005 | [Front Matter](./005-front-matter.md) | `00-front-matter/` (5 files) | 001, 002 | ✅ Complete |
 | 006 | [Historical Introduction & Reference](./006-scholarly-matter.md) | `04-historical-introduction/`, `05-chinese-text/`, `06-reference-matter/` | 001–004 | ✅ Complete |
-| 007 | [Quarto Typesetting & Publication](./007-quarto-and-typesetting.md) | Quarto build, LuaLaTeX RTL typography, HTML/PDF/EPUB | 002–006 | ⬜ Planned |
+| 007 | [Quarto Typesetting & Publication](./007-quarto-and-typesetting.md) | Quarto build, LuaLaTeX RTL typography, HTML/PDF/EPUB | 002–006 | ✅ Complete |
 
 ---
 

@@ -1,0 +1,20 @@
+% Mobile-only additions, loaded after tex/preamble.tex by _quarto-mobile.yml.
+%
+% On the 78mm measure of the phone page, lines have to break where the desktop
+% page never needed to -- and babel breaks a Persian word at its ZWNJ with a
+% hyphen: «می‌گوید» set as «می-» / «گوید». That is an error in Persian, where
+% the two halves are already separate glyph runs and no hyphen belongs.
+% Suppressing hyphens leaves the break itself intact but drops the mark.
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+% No running head. On a 160mm page the book class's head costs about 9mm --
+% 6% of the page -- to repeat a section number the reader just scrolled past.
+% `plain` keeps the folio and drops the rest; geometry's `includefoot` in
+% _quarto-mobile.yml is what keeps that folio on the paper.
+\pagestyle{plain}
+
+% With hyphenation off on a narrow measure, TeX will otherwise give up and
+% leave overfull lines running into the margin. This lets it stretch the last
+% resort instead.
+\setlength{\emergencystretch}{3em}

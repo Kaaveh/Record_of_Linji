@@ -3,10 +3,37 @@ source/
 Record_of_Linji_Translation_&_Commentary_of_Ruth_Fuller_Sasaki_Thomas.md
 Record_of_Linji_Translation_&_Commentary_of_Ruth_Fuller_Sasaki_Thomas.pdf
 full_bbox.xml
+
+# Quarto build outputs
+/_book/
+/_book-mobile/
+/.quarto/
+/_freeze/
+/site_libs/
+
+# LaTeX intermediates
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.tex
+!tex/*.tex
+
+# Build artefacts
 *.pdf
-*.xml
-*.txt
-!tools/requirements.txt
+*.epub
 
 # Python & Environment
 __pycache__/
@@ -24,3 +51,5 @@ venv/
 .Trashes
 .vscode/
 .idea/
+
+**/*.quarto_ipynb
