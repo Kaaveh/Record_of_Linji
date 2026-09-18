@@ -91,6 +91,12 @@ jobs:
 
       - uses: softprops/action-gh-release@v2
         with:
+          # A tag carrying a suffix (v1.0.2-rc.1) is a pre-release, which makes
+          # it a free rehearsal: GitHub resolves `latest` to the newest
+          # *non*-prerelease, so the deploy hook fires and kaavehdev.ir
+          # rebuilds, but the site keeps serving the previous release. The
+          # action does not infer this from the tag on its own.
+          prerelease: ${{ contains(github.ref_name, '-') }}
           files: |
             dist/record-of-linji-farsi-${{ steps.name.outputs.version }}.pdf
             dist/record-of-linji-farsi-${{ steps.name.outputs.version }}-mobile.pdf
