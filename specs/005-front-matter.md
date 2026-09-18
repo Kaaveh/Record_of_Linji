@@ -40,8 +40,8 @@ The front matter comprises modern essays and apparatus introducing Ruth Fuller S
 
 ## Checklist
 
-- [ ] `00-front-matter/foreword.md` — Polish and finalize Mumon Roshi's foreword
-- [ ] `00-front-matter/preface-1975.md` — Furuta Kazuhiro preface
-- [ ] `00-front-matter/editors-prologue.md` — Kirchner prologue and Sasaki biography
-- [ ] `00-front-matter/abbreviations.md` — Canonical sigla and abbreviations
-- [ ] `00-front-matter/record-title-page.md` — Title page
+- [x] `00-front-matter/foreword.md` — Polish and finalize Mumon Roshi's foreword
+- [x] `00-front-matter/preface-1975.md` — Furuta Kazuhiro preface
+- [x] `00-front-matter/editors-prologue.md` — Kirchner prologue and Sasaki biography
+- [x] `00-front-matter/abbreviations.md` — Canonical sigla and abbreviations
+- [x] `00-front-matter/record-title-page.md` — Title page
