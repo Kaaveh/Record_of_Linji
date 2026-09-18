@@ -49,6 +49,17 @@ jobs:
           cp _book/*.epub "dist/record-of-linji-farsi-${version}.epub"
           cp _book-mobile/*.pdf "dist/record-of-linji-farsi-${version}-mobile.pdf"
           tar -czf "dist/record-of-linji-farsi-${version}-html.tar.gz" -C _book .
+
+          # Unversioned copies of the same four files. The versioned names are
+          # what keeps an old release page meaningful; these are what
+          # https://github.com/.../releases/latest/download/<name> resolves, so
+          # kaavehdev.ir can fetch the current book without knowing the tag and
+          # without a GitHub API call.
+          cp "dist/record-of-linji-farsi-${version}.pdf"           dist/record-of-linji-farsi.pdf
+          cp "dist/record-of-linji-farsi-${version}-mobile.pdf"    dist/record-of-linji-farsi-mobile.pdf
+          cp "dist/record-of-linji-farsi-${version}.epub"          dist/record-of-linji-farsi.epub
+          cp "dist/record-of-linji-farsi-${version}-html.tar.gz"   dist/record-of-linji-farsi-html.tar.gz
+
           echo "version=${version}" >> "$GITHUB_OUTPUT"
 
       - uses: softprops/action-gh-release@v2
@@ -58,6 +69,10 @@ jobs:
             dist/record-of-linji-farsi-${{ steps.name.outputs.version }}-mobile.pdf
             dist/record-of-linji-farsi-${{ steps.name.outputs.version }}.epub
             dist/record-of-linji-farsi-${{ steps.name.outputs.version }}-html.tar.gz
+            dist/record-of-linji-farsi.pdf
+            dist/record-of-linji-farsi-mobile.pdf
+            dist/record-of-linji-farsi.epub
+            dist/record-of-linji-farsi-html.tar.gz
           generate_release_notes: true
           body: |
             نسخهٔ کامل برگردان فارسی کتاب **سخنان لین‌جی** (*The Record of Linji* / 臨濟錄).
@@ -67,3 +82,24 @@ jobs:
             - **EPUB**: نسخهٔ استاندارد کتاب الکترونیک با جهت راست‌به‌چپ و فونت‌های تعبیه‌شده.
             
             پروانهٔ متن فارسی: CC BY-SA 4.0. پروانهٔ کدهای ابزار مخزن: MIT.
+
+      # Rebuild kaavehdev.ir, which fetches releases/latest/download/ — so this
+      # has to run *after* the assets above are attached, or the site builds
+      # against a release whose files do not exist yet. The hook URL carries its
+      # own authentication, which is why it is a secret and not a literal.
+      # Without the secret (a fork) this is a no-op; with it, a POST that does
+      # not report success fails the release rather than passing silently.
+      - name: Rebuild kaavehdev.ir
+        env:
+          HOOK: ${{ secrets.SITE_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "SITE_DEPLOY_HOOK_URL is not set; skipping the site rebuild."
+            exit 0
+          fi
+          response=$(curl -fsS -X POST "$HOOK")
+          echo "$response"
+          echo "$response" | grep -q '"success": *true' || {
+            echo "Deploy hook did not report success."
+            exit 1
+          }
