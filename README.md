@@ -10,9 +10,10 @@
 
 ## دریافت و مطالعه
 
-- 📄 **[نسخهٔ PDF رومیزی (Desktop PDF)](../../releases/latest)** — حروف‌چینی اختصاصی با LuaLaTeX و فونت وزیرمتن و خط چینی
-- 📱 **[نسخهٔ PDF موبایل (Mobile PDF)](../../releases/latest)** — بهینه‌سازی‌شده برای صفحهٔ گوشی‌های هوشمند (اندازهٔ ۹۰×۱۶۰ میلی‌متر با فونت خوانا)
-- 📚 **[نسخهٔ کتاب الکترونیک (EPUB)](../../releases/latest)** — جهت مطالعه در کتاب‌خوان‌ها با چیدمان راست‌به‌چپ و فونت‌های نهفته
+- 🌐 **[مطالعهٔ آنلاین کتاب (GitHub Pages)](https://kaaveh.github.io/Record_of_Linji/)** — نسخهٔ وب با چیدمان راست‌به‌چپ و موتور جست‌وجوی داخلی
+- 📄 **[نسخهٔ PDF رومیزی (Desktop PDF)](https://github.com/Kaaveh/Record_of_Linji/releases/latest)** — حروف‌چینی اختصاصی با LuaLaTeX و فونت وزیرمتن و خط چینی
+- 📱 **[نسخهٔ PDF موبایل (Mobile PDF)](https://github.com/Kaaveh/Record_of_Linji/releases/latest)** — بهینه‌سازی‌شده برای صفحهٔ گوشی‌های هوشمند (اندازهٔ ۹۰×۱۶۰ میلی‌متر با فونت خوانا)
+- 📚 **[نسخهٔ کتاب الکترونیک (EPUB)](https://github.com/Kaaveh/Record_of_Linji/releases/latest)** — جهت مطالعه در کتاب‌خوان‌ها با چیدمان راست‌به‌چپ و فونت‌های نهفته
 
 ---
 
