@@ -67,4 +67,4 @@ The following recurring formulas and terms must be established and kept consiste
 2. Each file maintains the `## Part One: Discourses (上堂)`, `### Discourse N`, translation, `---`, and `## Commentary` structure.
 3. Chinese text blocks in the commentary remain intact.
 4. One sentence per line enforced.
-5. `linji_tools.check_parity` confirms block alignment between source and Persian.
+5. `bargardan_tools.check_parity` confirms block alignment between source and Persian.

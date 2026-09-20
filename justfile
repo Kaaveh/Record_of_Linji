@@ -8,14 +8,14 @@ _default:
 
 # Everything CI runs on a pull request / release.
 check:
-    {{py}} -m linji_tools.check_parity --check
-    {{py}} -m linji_tools.normalize --check
-    {{py}} -m linji_tools.check_linebreaks --check
+    {{py}} -m bargardan_tools.check_parity --check
+    {{py}} -m bargardan_tools.normalize --check
+    {{py}} -m bargardan_tools.check_linebreaks --check
 
 # Automatically fix orthography and linebreaks where possible.
 fix:
-    {{py}} -m linji_tools.normalize --fix
-    {{py}} -m linji_tools.check_linebreaks --fix
+    {{py}} -m bargardan_tools.normalize --fix
+    {{py}} -m bargardan_tools.check_linebreaks --fix
 
 # HTML, PDF and EPUB via Quarto.
 build:

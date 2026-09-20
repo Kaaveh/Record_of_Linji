@@ -39,7 +39,7 @@
 | بخش | پروانه / حقوق نشر |
 |---|---|
 | **متن برگردان فارسی** | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fa) — استفاده و بازنشر آزاد با ذکر مأخذ |
-| **ابزارها و کدهای مخزن** (`linji_tools/`, `tools/`, `.github/`, `justfile`, `tex/`, `assets/`) | [MIT License](LICENSE-CODE) |
+| **ابزارها و کدهای مخزن** (`tools/`, `.github/`, `justfile`, `tex/`, `assets/`) | [MIT License](LICENSE-CODE) |
 | **متن انگلیسی مأخذ و یادداشت‌ها** | © Ruth Fuller Sasaki / Nanzan Institute for Religion and Culture. **در این مخزن بازنشر نمی‌شود.** |
 | **متن کهن چینی باستان** | مالکیت عمومی (Public Domain — Taishō Vol. 47, No. 1985) |
 

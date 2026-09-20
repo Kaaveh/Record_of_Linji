@@ -5,9 +5,9 @@ Drives the complete pipeline:
   1. Strip inline markup, Chinese text blocks, and headings to sentinels (tools/anchors.py)
   2. Translate English draft to Persian with Google Translate's Advanced (Gemini) model (gTranslator)
   3. Restore sentinels to Persian headings, original Chinese blocks, and footnote links (tools/anchors.py)
-  4. Normalize Persian orthography (linji_tools.normalize)
-  5. Enforce semantic line breaks (linji_tools.check_linebreaks)
-  6. Validate block parity (linji_tools.check_parity)
+  4. Normalize Persian orthography (bargardan_tools.normalize)
+  5. Enforce semantic line breaks (bargardan_tools.check_linebreaks)
+  6. Validate block parity (bargardan_tools.check_parity)
 
 Usage:
     tools/translate.py source/01-discourses/01.md
@@ -26,7 +26,7 @@ REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO))
 
 import regex
-from linji_tools import check_linebreaks, check_parity, normalize
+from bargardan_tools import check_linebreaks, check_parity, normalize
 from tools import anchors
 
 GTRANSLATOR_DIR = Path("/Users/kaavehmohamedi/Project/Backend/gTranslator")
@@ -172,9 +172,9 @@ def run_translation(
             f"1. Edit {temp_fa} to place the missing sentinel(s) in the matching Persian clause.\n"
             f"2. Resume restoration with:\n"
             f"   python3 tools/anchors.py restore {source_path} {temp_fa} -o {target_path}\n"
-            f"   python3 -m linji_tools.normalize {target_path} --fix\n"
-            f"   python3 -m linji_tools.check_linebreaks {target_path} --fix\n"
-            f"   python3 -m linji_tools.check_parity {source_path} {target_path}\n",
+            f"   python3 -m bargardan_tools.normalize {target_path} --fix\n"
+            f"   python3 -m bargardan_tools.check_linebreaks {target_path} --fix\n"
+            f"   python3 -m bargardan_tools.check_parity {source_path} {target_path}\n",
             file=sys.stderr,
         )
         return 1

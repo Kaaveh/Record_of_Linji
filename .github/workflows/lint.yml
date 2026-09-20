@@ -26,14 +26,17 @@ jobs:
 
       - run: pip install -r tools/requirements.txt
 
-      - name: Tests for the checkers
-        run: python -m unittest discover -s linji_tools/tests
+      # The checkers' own suite runs in bargardan-tools' CI now, where it can
+      # prove the thing that matters about it: that it passes with none of any
+      # book's config present.
+      - name: Tests for the adapter
+        run: python -m unittest discover -s tools/tests
 
       - name: Orthography
-        run: python -m linji_tools.normalize --check
+        run: python -m bargardan_tools.normalize --check
 
       - name: Semantic line breaks
-        run: python -m linji_tools.check_linebreaks --check
+        run: python -m bargardan_tools.check_linebreaks --check
 
       - name: Parity
-        run: python -m linji_tools.check_parity --check
+        run: python -m bargardan_tools.check_parity --check

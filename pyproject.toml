@@ -1,4 +1,4 @@
-# Configuration for the checkers in linji_tools/. This file is config only --
+# Configuration for the checkers in bargardan_tools/. This file is config only --
 # they are imported from the tree, not installed.
 
 [tool.book]
@@ -35,5 +35,15 @@ latin_digits = false
 # Strip Tatweel / Kashida U+0640
 tatweel = true
 
-# Normalise half-space (ZWNJ) around prefixes/suffixes
-zwnj = true
+# Normalise half-space (ZWNJ) around prefixes and suffixes.
+#
+# These five keys replace a single `zwnj = true`, which normalize.py never read
+# -- each rule is looked up by its own name, and an unrecognised key is merged
+# into the config and then never consulted. Nothing was broken, because all
+# five default to true, but `zwnj = false` would have silently done nothing.
+zwnj_mi = true          # mi/nemi verbal prefix + space + verb -> ZWNJ
+zwnj_bi = true          # bi- privative prefix -> ZWNJ
+zwnj_plural = true      # plural haa written as a separate word -> ZWNJ
+zwnj_comparative = true # comparative tar / superlative tarin -> ZWNJ
+zwnj_collapse = true    # collapse repeated ZWNJ
+zwnj_trim = true        # drop ZWNJ next to a space or at a word boundary

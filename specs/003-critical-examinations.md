@@ -64,4 +64,4 @@ The register here contrasts sharply with the formal sermons of Part One:
 2. Section numbering `23.md` through `46.md` preserved.
 3. Dialogue punctuation uses proper Persian guillemets (« »).
 4. Commentary sections integrated with intact Chinese snippets.
-5. All checks pass via `linji_tools`.
+5. All checks pass via `bargardan_tools`.

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """This book's note, Chinese text, and heading apparatus, carried across gTranslator and verified.
 
-The round-trip itself is general and lives in `linji_tools.anchors`, which knows
+The round-trip itself is general and lives in `bargardan_tools.anchors`, which knows
 nothing about Sasaki's markup. This file is the half that does: the token
 pattern and the Persian form each token takes for The Record of Linji.
 
@@ -32,8 +32,8 @@ REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO))
 
 import regex
-from linji_tools import _md, anchors as engine
-from linji_tools._md import to_persian_digits
+from bargardan_tools import _md, anchors as engine
+from bargardan_tools._md import to_persian_digits
 
 # source/ files with no translation to pair against, from [tool.book] exclude.
 EXCLUDE = set(_md.config("book").get("exclude", []))

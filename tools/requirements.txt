@@ -1,2 +1,10 @@
+# The checkers. They used to live in linji_tools/ in this repository and be
+# imported from the tree; they now have a home of their own, because three book
+# repositories each carried a copy and the copies drifted apart.
+#
+# Pinned to a tag on purpose. Tracking @main would mean one bad commit there
+# breaks this book's CI with nothing in this history to show what changed.
+bargardan-tools @ git+https://github.com/Kaaveh/bargardan-tools@v0.1.0
+
 pyyaml>=6.0
 regex>=2026.0.0
