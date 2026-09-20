@@ -43,7 +43,7 @@ In the previous project ([`The Zen Teachings of Master Lin-chi`](file:///Users/k
   just build          # Build HTML, PDF, EPUB via Quarto
   just pdf            # Render PDF with LuaLaTeX
   just serve          # Start Quarto local live preview server
-  just check          # Run linji_tools orthography, linebreaks, and parity checks
+  just check          # Run bargardan_tools orthography, linebreaks, and parity checks
   ```
 
 ---

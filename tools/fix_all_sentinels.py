@@ -16,7 +16,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO))
 
-from linji_tools import _md
+from bargardan_tools import _md
 
 
 def plan_slices(blocks: list, start: int, max_chars: int = 3500) -> list[tuple[int, int, int]]:

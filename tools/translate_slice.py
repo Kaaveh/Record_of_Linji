@@ -12,7 +12,7 @@ REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO))
 
 import regex
-from linji_tools import _md, check_linebreaks, normalize
+from bargardan_tools import _md, check_linebreaks, normalize
 from tools import anchors, translate
 
 def translate_slice(

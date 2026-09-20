@@ -76,16 +76,16 @@ python3 tools/anchors.py strip source/01-discourses/01.md -o /tmp/01.en.md
 python3 tools/anchors.py restore source/01-discourses/01.md /tmp/01.fa.md -o fa/01-discourses/01.md
 
 # 4. Orthographic normalization and semantic line breaks
-python3 -m linji_tools.normalize fa/01-discourses/01.md --fix
-python3 -m linji_tools.check_linebreaks fa/01-discourses/01.md --fix
+python3 -m bargardan_tools.normalize fa/01-discourses/01.md --fix
+python3 -m bargardan_tools.check_linebreaks fa/01-discourses/01.md --fix
 
 # 5. Verify parity
-python3 -m linji_tools.check_parity source/01-discourses/01.md fa/01-discourses/01.md
+python3 -m bargardan_tools.check_parity source/01-discourses/01.md fa/01-discourses/01.md
 ```
 
 ---
 
 ## 4. Requirements & Deliverables
 
-- [ ] Port/adapt `tools/anchors.py` and `linji_tools` from `/Users/kaavehmohamedi/Project/Books/The Zen Teachings of Master Lin-chi` to support subdirectories and Chinese text block masking.
+- [ ] Port/adapt `tools/anchors.py` and `bargardan_tools` from `/Users/kaavehmohamedi/Project/Books/The Zen Teachings of Master Lin-chi` to support subdirectories and Chinese text block masking.
 - [ ] Verify test execution of a single sample section end-to-end.
